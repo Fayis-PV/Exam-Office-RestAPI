@@ -5,4 +5,4 @@ venv/
 *.env
 
 *.pyc
-db.sqlite3a
+db.sqlite3

@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 
 # Create your models here.
 
@@ -15,3 +16,4 @@ class NextEvents(models.Model):
     def __str__(self):
         return self.event_name
     
+
