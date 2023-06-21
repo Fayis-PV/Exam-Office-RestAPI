@@ -14,6 +14,7 @@ class NextEventsSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
+    password = serializers.CharField()
     class Meta:
         model = User
         fields = ('id', 'username','email', 'password','is_staff')
